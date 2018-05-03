@@ -1,4 +1,8 @@
 @import 'bower_components/neat/core/_neat';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+  font-family: "Open Sans", sans-serif;
+}
 
 ul{
   list-style: none;
@@ -41,7 +45,7 @@ nav{
     list-style: none;
   }
   .nav-links__link{
-    @include grid-column(2);
+    @include grid-column(3);
     font-size: 20px;
     text-align: center;
   }
@@ -52,6 +56,7 @@ main, section{
 }
 
 .banner-area{
+  margin: 50px 0;
   @include grid-container;
 
   .banner-image{
@@ -76,6 +81,8 @@ main, section{
 }
 
 .about-product{
+  background:rgba(248,248,248,1);
+  margin-top: 30px;
   .about-product__title{
     text-align: center;
     font-size: 28px;
