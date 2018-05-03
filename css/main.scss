@@ -60,6 +60,19 @@ main, section{
   .banner-text{
     @include grid-column(6);
   }
+
+  .banner-button{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid;
+    display: block;
+    width: 150px;
+    text-align: center;
+    background: #2f2f2f;
+    color: #fff;  
+    font-size: 20px;
+    border-radius: 5px;
+  }
 }
 
 .about-product{
